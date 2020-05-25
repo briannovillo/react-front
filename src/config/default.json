@@ -1,0 +1,12 @@
+{
+    "server": {
+        "port": 8080
+    },
+    "services": {
+        "product": {
+            "host": "http://localhost:3000",
+            "getEndpoint": "/api/items/",
+            "searchEndpoint": "/api/items/"
+        }
+    }
+}
